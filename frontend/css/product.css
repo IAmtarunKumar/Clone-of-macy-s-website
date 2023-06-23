@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.productGrid{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.productGrid>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.46);
+    margin: 10px 0px;
+}
+.mustshop{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 10px;
+   
+
+}
+
+.mustshop>a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 5px 10px;
+   
+}
+.mustshop>a>div>img{
+    width: 80%;
+}
+
+.offer{
+    color: red;
+}
+
+.productSale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.productSale>div:nth-child(2)>fieldset{
+    font-size: 15px;
+    border-radius: 5px;
+    /* padding: 5px 15px; */
+}
+.productSale>div:nth-child(2)>fieldset>select{
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.productSale>div:nth-child(2)>fieldset>select>option{
+    border: none;
+}
+
+.apiproduct{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+.apiproduct>div:nth-child(1){
+    background-color: gray;
+}
+
+.apiproduct>div:nth-child(2){
+    background-color: aqua;
+    height: 500px;
+}
+
+.filterby{
+    padding: 10px 20px;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.clickLabel{
+   /* max-width: 100%; */
+    font-size: 20px;
+
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+.marginl20{
+    margin-left: 20px;
+}
+.optinput{
+    font-size: 18px;
+    background-color: red;
+}
