@@ -124,7 +124,7 @@
 @media screen and (min-width: 901px) {
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and  (max-width: 900px) {
   .categoryGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
