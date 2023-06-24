@@ -64,15 +64,23 @@
 }
 
 .apiproduct{
+
+ 
     display: grid;
     grid-template-columns: 30% 70%;
+    
+
     
 }
 .apiproduct>div:nth-child(1){
     background-color: gray;
+height: 500px;
+    overflow-x: auto; 
+    white-space: nowrap;
 }
 
 .apiproduct>div:nth-child(2){
+
     background-color: aqua;
     height: 500px;
 }
@@ -87,8 +95,8 @@
     font-size: 20px;
 
     border: 1px solid black;
-    margin-left: 20px;
-    padding: 8px;
+    /* margin-left: 20px; */
+    padding: 8px 0px 8px 20px;
 }
 
 .marginl20{
