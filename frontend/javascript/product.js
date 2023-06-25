@@ -52,8 +52,7 @@ clickLabel.forEach((item, index) => {
         console.log(item);
         x = true;
       }
-    } else if(index == 2){
-
+    } else if (index == 2) {
       if (x) {
         brand.style.display = "block";
 
@@ -64,10 +63,8 @@ clickLabel.forEach((item, index) => {
         brand.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
-    } else if(index==3){
-
+      }
+    } else if (index == 3) {
       if (x) {
         size.style.display = "block";
 
@@ -78,10 +75,8 @@ clickLabel.forEach((item, index) => {
         size.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
-    } else if(index==4){
-
+      }
+    } else if (index == 4) {
       if (x) {
         discountdiv.style.display = "block";
 
@@ -92,10 +87,8 @@ clickLabel.forEach((item, index) => {
         discountdiv.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
-    } else if(index==5){
-
+      }
+    } else if (index == 5) {
       if (x) {
         categorydiv.style.display = "block";
 
@@ -106,10 +99,8 @@ clickLabel.forEach((item, index) => {
         categorydiv.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
-    } else if(index==6){
-
+      }
+    } else if (index == 6) {
       if (x) {
         sizeRange.style.display = "block";
 
@@ -120,10 +111,8 @@ clickLabel.forEach((item, index) => {
         sizeRange.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
-    } else if(index==7){
-
+      }
+    } else if (index == 7) {
       if (x) {
         department.style.display = "block";
 
@@ -134,13 +123,7 @@ clickLabel.forEach((item, index) => {
         department.style.display = "none";
         console.log(item);
         x = true;
-      } 
-
+      }
     }
-
-
-
-
-
   });
 });
