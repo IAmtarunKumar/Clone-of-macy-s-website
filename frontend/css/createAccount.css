@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #e4e4e4;
+}
+.navbar {
+  background-color: white;
+}
+
+.child-nav {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.child-nav > img {
+  width: 120px;
+}
+
+.child-nav > i {
+  font-size: 30px;
+}
+
+.detail {
+  width: 45%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.detail > div:nth-child(1) {
+  /* border: 1px solid red; */
+  width: 65%;
+}
+
+.detail > div:nth-child(2) {
+  /* border: 1px solid green; */
+  width: 26%;
+  padding: 30px;
+}
+
+.child-detail > i {
+  font-size: 25px;
+  margin-left: 15px;
+}
+.child-detail > span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.accountDetail {
+  /* border: 1px solid red; */
+  background-color: white;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.accountDetail > p {
+  margin-left: 15px;
+}
+.accountDetail > p > span {
+  color: red;
+  font-weight: bold;
+}
+form {
+  padding: 15px;
+}
+
+.fillDetail > span {
+  display: block;
+  margin-top: 20px;
+  /* margin-bottom: 5px; */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fillDetail > input {
+  width: 97%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.birthDetails {
+  margin-top: 35px;
+}
+
+.birthDetails > span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.birthDetails > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.birthDetails select {
+  width: 50%;
+  font-size: 20px;
+  height: 45px;
+  outline: none;
+}
+.birthDetails + p {
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.aleadyMember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0px;
+}
+.aleadyMember > p {
+  width: 50%;
+  padding: 10px 0px;
+}
+
+.aleadyMember > p:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+
+.join {
+  display: flex;
+  font-size: 15px;
+}
+.join > input {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.join ~ p {
+  margin: 20px 0px 10px 0px;
+  font-weight: bold;
+}
+.term {
+  margin: 5px 35px;
+  font-size: 15px;
+  color: grey;
+}
+.send {
+  display: flex;
+  font-size: 15px;
+}
+.send > input {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.important {
+  display: flex;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+
+.important > input {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.singupAccount {
+  width: 80%;
+  margin: auto;
+}
+.singupAccount > button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #e01a2b;
+  border: 1px solid #e01a2b;
+  border-radius: 5px;
+  margin: 20px 0px;
+  color: white;
+}
+form + a {
+  margin: 20px 15px;
+  color: black;
+  /* text-decoration: none; */
+  font-size: 12px;
+}
+form ~ p {
+  font-size: 12px;
+  color: grey;
+  margin: 25px 0px;
+}
+
+form ~ p > a {
+  color: black;
+}
+
+.benefits {
+  background-color: white;
+  margin-top: 80px;
+  text-align: center;
+  height: 50%;
+  font-size: 15px;
+}
+
+.benefits > p {
+  font-weight: bold;
+}
+
+.child-benifits > i {
+  font-size: 30px;
+  margin: 15px 0px;
+}
+
+.child-benifits span {
+  font-weight: bold;
+}
+.child-benifits p {
+  margin: 10px 0px;
+}
+
+.child-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.child-img > img {
+  width: 100px;
+}
+.child-img > span {
+  font-size: 20px;
+  color: #e01a2b;
+}
+.free > p {
+  margin: 10px 0px;
+}
+
+.footer {
+  /* border: 1px solid grey; */
+  border-top: 1px solid grey;
+  text-align: center;
+  padding: 40px 0px;
+  color: grey;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.footer > div {
+  margin-top: 10px;
+}
+.footer a {
+  color: black;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .detail {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .child-nav {
+    width: 95%;
+  }
+  .detail {
+    width: 95%;
+    display: grid;
+  }
+  .detail > div:nth-child(1) {
+    width: 100%;
+  }
+  .detail > div:nth-child(2) {
+    width: 83%;
+  }
+  .benefits {
+    background-color: white;
+    margin-top: 20px;
+    text-align: center;
+    height: auto;
+    font-size: 15px;
+  }
+}
