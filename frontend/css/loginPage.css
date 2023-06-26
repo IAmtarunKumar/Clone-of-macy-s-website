@@ -132,6 +132,12 @@ form+div>a{
     color: black;
 }
 
+.singupdiv a{
+    /* border: 1px solid red; */
+    text-decoration: none;  
+    color: black;
+}
+
 .createAccount{
     border: 1px solid black;
     background-color: white;
